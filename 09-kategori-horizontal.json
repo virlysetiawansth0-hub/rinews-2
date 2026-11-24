@@ -1,0 +1,12 @@
+{
+  "key": "kategori_horizontal",
+  "label": "09. Blok Kategori Horizontal (4 Kolom: Internasional, Nasional, dll)",
+  "widget": "RINEWS_Widget_Kategori_Berita (horizontal)",
+  "wp_size": "rinews-kategori-horizontal",
+  "width": 526,
+  "height": 393,
+  "crop": true,
+  "object_fit": "cover",
+  "css_ratio_var": "--rn-ratio-kat-horiz",
+  "notes": "Kartu foto 4 kolom untuk kategori Internasional, Nasional, Regional, Buser Berita, Olah Raga, Bisnis."
+}

@@ -1,0 +1,12 @@
+{
+  "key": "kategori_vertikal",
+  "label": "10. Blok 3 Kolom Vertikal (Ilmu Pengetahuan, Hiburan, Budaya)",
+  "widget": "RINEWS_Widget_Kategori_Berita (vertical)",
+  "wp_size": "rinews-kategori-vertikal",
+  "width": 526,
+  "height": 393,
+  "crop": true,
+  "object_fit": "cover",
+  "css_ratio_var": "--rn-ratio-kat-vert",
+  "notes": "Kartu foto berita vertikal pada kolom Ilmu Pengetahuan, Hiburan, dan Budaya."
+}

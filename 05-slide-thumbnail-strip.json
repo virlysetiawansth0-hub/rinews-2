@@ -1,0 +1,12 @@
+{
+  "key": "slide_thumb",
+  "label": "05. Thumbnail Strip di Bawah Slide Utama",
+  "widget": "RINEWS_Widget_Slide_Berita_Baru (thumbs)",
+  "wp_size": "rinews-thumb",
+  "width": 263,
+  "height": 197,
+  "crop": true,
+  "object_fit": "cover",
+  "css_ratio_var": "--rn-ratio-slide-thumb",
+  "notes": "Thumbnail navigasi 6 slide di bawah stage slide utama."
+}

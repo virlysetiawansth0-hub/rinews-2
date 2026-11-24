@@ -1,0 +1,12 @@
+{
+  "key": "live_streaming",
+  "label": "13. LIVE Streaming Portrait & TikTok Live (Rasio 9:16)",
+  "widget": "RINEWS_Widget_Live_Streaming",
+  "wp_size": "rinews-live-portrait",
+  "width": 540,
+  "height": 960,
+  "crop": true,
+  "object_fit": "cover",
+  "css_ratio_var": "--rn-ratio-live",
+  "notes": "Rasio frame siaran langsung Portrait TikTok Live di footer tengah atas copyright (default 9:16)."
+}

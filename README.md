@@ -1,0 +1,26 @@
+# RINEWS.ID — Tema WordPress Portal Berita Dark Edition (v2.3.3)
+
+Tema WordPress **RINEWS.ID (Portal Berita Republik Indonesia)** versi **2.3.3** dengan **Pos Baru 1 Grup Kiri & Kanan (+10 Berita menjadi 20 Berita/Halaman) + Nomor Halaman Pos Terbaru hingga Terlama & Tombol Sebelumnya/Selanjutnya**, **Widget Gambar Bawah Header (`REPUBLIC OF INDONESIA NEWS MEDIA`) Posisi Tengah**, **Integrasi TikTok Aktif Otomatis**, **folder `/ukuran-gambar-widget/`**, **pewarnaan Dark Mode**, serta kompatibilitas penuh **WordPress 7.1** & **PHP 8.0–8.4**.
+
+## Pembaruan Terbaru (v2.3.3)
+- **Pos Baru 1 Grup Kiri & Kanan (20 Berita/Hal + Paginasi Terbaru–Terlama)**: Kolom Pos Baru kiri dan kanan digabungkan menjadi **1 grup terpadu** berisi **20 berita per halaman** (bertambah +10 berita dari sebelumnya 10), dilengkapi urutan nomor pos dari **Pos Terbaru (#1)** hingga **Pos Terlama**, nomor halaman (`1, 2, 3...`), serta tombol navigasi **« Sebelumnya** dan **Selanjutnya »**. Setiap artikel tetap mempertahankan foto tengah atas `526 × 393 px`, judul di bawah foto, 3 kalimat teratas, serta tombol `Selengkapnya....`.
+- **Widget Gambar Tengah Bawah Tagline Header (`0b. Header — Widget Gambar Di Bawah Tagline`)**: Tersedia area widget dan **`RINEWS: Widget Gambar Bawah Header (Tengah)`** tepat di bawah tulisan **`REPUBLIC OF INDONESIA NEWS MEDIA`** pada posisi tengah header, dapat diedit/diunggah langsung lewat **Tampilan → Widget** serta diatur dimensinya di **Tampilan → Ukuran Gambar Widget** (`15-header-gambar-bawah.json`).
+- **Integrasi TikTok Langsung Aktif Setelah Diunggah**: Begitu tema diunggah/diaktifkan (baik di website baru maupun menggantikan tema lama), modul `inc/tiktok-integration.php` otomatis mengaktifkan Widget **TikTok Video (4 Tayangan Teratas)** dan Widget **LIVE Streaming Portrait 9:16 (TikTok Live)** dengan akun `@ri.news.portal`, mendaftarkan oEmbed TikTok WordPress, menyinkronkan profil/URL dari **Customizer → Akun Medsos & SEO Share**, serta memutar video TikTok langsung di jendela modal resmi tanpa meninggalkan portal.
+- **Folder Ukuran Gambar Per Widget (`/ukuran-gambar-widget/`)**: Berisi 15 file konfigurasi JSON terpisah (`01-header-logo-tengah.json` s.d. `15-header-gambar-bawah.json`) untuk mengatur **lebar (px)**, **tinggi (px)**, **crop otomatis (`true`/`false`)**, dan **mode gambar (`cover`/`contain`)** pada masing-masing widget secara mandiri. Juga tersedia langsung di Dashboard WordPress melalui **Tampilan → Ukuran Gambar Widget**.
+- **Pewarnaan Web Versi Dark Edition (Default)**: Kanvas obsidian `#070B14`, kartu & masthead gelap `#0F172A`, panel aksen merah marun gelap `#7F0E22`, serta tipografi kontras tinggi (`#F8FAFC` / `#CBD5E1` / `#FCA5A5`). Tersedia tombol switch **`Mode: Gelap / Terang`** di header atas serta opsi pengaturan di **Tampilan → Sesuaikan → 1. Masthead & Identitas**.
+- **Standar Ruang Foto 526 × 393 px & Konversi Otomatis**: Seluruh space foto berita, slide, thumbnail, dan iklan otomatis menyesuaikan proporsi **526 : 393 px** (atau ukuran khusus masing-masing widget pada `/ukuran-gambar-widget/`) serta WordPress otomatis melakukan *crop/upscale* foto unggahan baru ke ukuran masing-masing widget.
+- **Pos Baru Lanjutan & Ringkasan 3 Kalimat + `Selengkapnya....`**: Kolom Pos Baru Kiri menampilkan berita terbaru ke-1 s.d. ke-5 dan Pos Baru Kanan melanjutkan urutan ke-6 s.d. ke-10 (`offset`), dengan foto rata tengah di atas, judul di bawah foto, 3 kalimat teratas, serta tombol **`Selengkapnya....`**.
+- **Widget Logo Header Tengah (`0. Header — Logo Tengah Portal`)**: Tersedia area widget khusus di posisi tengah header serta widget **`RINEWS: Logo Header Tengah`** agar logo, ukuran, tautan, dan tagline mudah diedit langsung melalui **Tampilan → Widget**.
+- **Tombol Hamburger (`☰ MENU`)**: Navigasi kategori dikemas ringkas dalam tombol tiga garis horizontal (`☰ MENU`) beserta drawer grid kategori & submenu agar bar merah tidak berjajar panjang.
+- **Kompatibel WordPress 7.1 & PHP 8.0–8.4**: Dilengkapi `theme.json` (schema v3), dukungan penuh Block Widgets & Gutenberg (`appearance-tools`, `editor-styles`, `wp-block-styles`, `block-template-parts`), serta API tanggal modern (`current_datetime()`, `wp_date()`).
+- **Aman untuk Website Lama**: Pemasangan melalui `Tampilan → Tema → Unggah Tema` langsung menggantikan tema lama tanpa menghapus berita, halaman, gambar, maupun data plugin lama.
+
+## Cara Pasang di WordPress
+1. Unduh file **`rinews-portal-wordpress.zip`**.
+2. Masuk ke **WP Admin → Tampilan → Tema → Tambah Baru → Unggah Tema**.
+3. Pilih file ZIP, klik **Pasang Sekarang** (atau **Ganti tema aktif dengan versi unggahan** jika memperbarui tema lama), lalu klik **Aktifkan**.
+4. Untuk mengatur ukuran gambar tiap widget, edit file JSON di `/ukuran-gambar-widget/` sebelum unduh ZIP atau buka **Tampilan → Ukuran Gambar Widget** di WP Admin.
+5. Untuk mengedit logo tengah header, buka **Tampilan → Widget → `0. Header — Logo Tengah Portal`**.
+6. Untuk memilih mode warna default (Dark / Terang), buka **Tampilan → Sesuaikan → 1. Masthead & Identitas**.
+7. *(Opsional untuk berita lama yang sudah terunggah)*: Jalankan plugin *Regenerate Thumbnails* sekali di WP Admin agar thumbnail lama ikut terkonversi ke ukuran baru masing-masing widget.
+

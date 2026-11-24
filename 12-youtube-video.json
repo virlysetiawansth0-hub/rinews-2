@@ -1,0 +1,12 @@
+{
+  "key": "youtube_video",
+  "label": "12. Integrasi Video Berita YouTube (Thumbnail 16:9)",
+  "widget": "RINEWS_Widget_YouTube_Feed",
+  "wp_size": "rinews-youtube-thumb",
+  "width": 640,
+  "height": 360,
+  "crop": true,
+  "object_fit": "cover",
+  "css_ratio_var": "--rn-ratio-youtube",
+  "notes": "Thumbnail video YouTube layar lebar 16:9 (default 640 x 360 px)."
+}

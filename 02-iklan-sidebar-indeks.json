@@ -1,0 +1,12 @@
+{
+  "key": "iklan_sidebar",
+  "label": "02. Ruang Gambar Iklan (3 Indeks Kiri & 3 Bawah)",
+  "widget": "RINEWS_Widget_Iklan_Gambar (sidebar)",
+  "wp_size": "rinews-iklan-sidebar",
+  "width": 526,
+  "height": 393,
+  "crop": true,
+  "object_fit": "cover",
+  "css_ratio_var": "--rn-ratio-iklan-sidebar",
+  "notes": "Ukuran kartu iklan kolom Indeks Pencarian dan 3 Iklan Bawah sebelum footer."
+}

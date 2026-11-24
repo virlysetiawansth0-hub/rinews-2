@@ -1,0 +1,12 @@
+{
+  "key": "slide_utama",
+  "label": "04. Slide Berita Baru Utama (6 Pos Teratas)",
+  "widget": "RINEWS_Widget_Slide_Berita_Baru",
+  "wp_size": "rinews-slide",
+  "width": 1052,
+  "height": 786,
+  "crop": true,
+  "object_fit": "cover",
+  "css_ratio_var": "--rn-ratio-slide",
+  "notes": "Resolusi 2x dari rasio 526:393 untuk layar slide utama agar tetap tajam."
+}

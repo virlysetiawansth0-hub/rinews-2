@@ -1,0 +1,13 @@
+{
+  "key": "artikel_single",
+  "label": "14. Halaman Baca Artikel Tunggal (Featured Image)",
+  "widget": "Single Post (single.php)",
+  "wp_size": "rinews-single",
+  "width": 1052,
+  "height": 786,
+  "crop": true,
+  "object_fit": "cover",
+  "css_ratio_var": "--rn-ratio-single",
+  "css_maxw_var": "--rn-single-maxw",
+  "notes": "Foto utama artikel pada halaman baca berita tunggal (single.php)."
+}

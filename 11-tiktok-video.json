@@ -1,0 +1,12 @@
+{
+  "key": "tiktok_video",
+  "label": "11. Integrasi Video TikTok (Poster 4 Tayangan Teratas)",
+  "widget": "RINEWS_Widget_TikTok_Feed",
+  "wp_size": "rinews-tiktok-poster",
+  "width": 540,
+  "height": 840,
+  "crop": true,
+  "object_fit": "cover",
+  "css_ratio_var": "--rn-ratio-tiktok",
+  "notes": "Poster vertikal kartu Video TikTok (rasio default 9:14 / 540 x 840 px)."
+}

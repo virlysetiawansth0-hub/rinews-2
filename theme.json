@@ -1,0 +1,51 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "useRootPaddingAwareAlignments": true,
+    "color": {
+      "defaultPalette": true,
+      "palette": [
+        { "slug": "rinews-dark-canvas", "color": "#070B14", "name": "RINEWS Dark Canvas" },
+        { "slug": "rinews-dark-surface", "color": "#0F172A", "name": "RINEWS Dark Surface" },
+        { "slug": "rinews-dark-crimson", "color": "#7F0E22", "name": "RINEWS Dark Crimson" },
+        { "slug": "rinews-red", "color": "#C8102E", "name": "RINEWS Red Accent" },
+        { "slug": "rinews-sky", "color": "#38BDF8", "name": "RINEWS Sky Accent" },
+        { "slug": "rinews-ink-light", "color": "#F1F5F9", "name": "RINEWS Light Text" },
+        { "slug": "rinews-muted", "color": "#94A3B8", "name": "RINEWS Muted" },
+        { "slug": "rinews-white", "color": "#FFFFFF", "name": "White" },
+        { "slug": "rinews-black", "color": "#090D16", "name": "Black" }
+      ]
+    },
+    "layout": {
+      "contentSize": "840px",
+      "wideSize": "1360px"
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "\"Plus Jakarta Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif",
+          "slug": "jakarta",
+          "name": "Plus Jakarta Sans"
+        },
+        {
+          "fontFamily": "\"Fraunces\", Georgia, serif",
+          "slug": "fraunces",
+          "name": "Fraunces"
+        },
+        {
+          "fontFamily": "\"Source Serif 4\", Georgia, serif",
+          "slug": "source-serif",
+          "name": "Source Serif 4"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#070B14",
+      "text": "#F1F5F9"
+    }
+  }
+}

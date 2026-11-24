@@ -1,0 +1,13 @@
+{
+  "key": "header_bottom_image",
+  "label": "15. Header — Widget Gambar Di Bawah Tagline (Tengah)",
+  "widget": "RINEWS_Widget_Header_Image",
+  "wp_size": "rinews-header-banner",
+  "width": 728,
+  "height": 120,
+  "crop": true,
+  "object_fit": "cover",
+  "css_ratio_var": "--rn-ratio-header-banner",
+  "css_maxw_var": "--rn-header-banner-maxw",
+  "notes": "Widget gambar posisi tengah tepat di bawah tulisan REPUBLIC OF INDONESIA NEWS MEDIA (default 728 x 120 px)."
+}

@@ -1,0 +1,13 @@
+{
+  "key": "pos_baru",
+  "label": "08. Pos Baru — 1 Grup Kiri & Kanan (20 Berita/Hal)",
+  "widget": "RINEWS_Widget_Kategori_Berita (grid_pos_baru)",
+  "wp_size": "rinews-posbaru",
+  "width": 526,
+  "height": 393,
+  "crop": true,
+  "object_fit": "cover",
+  "css_ratio_var": "--rn-ratio-posbaru",
+  "css_maxw_var": "--rn-posbaru-maxw",
+  "notes": "Foto berita Pos Baru 1 grup 2 kolom (20 berita per halaman, Terbaru hingga Terlama) posisi tengah atas, judul di bawah & 3 kalimat artikel + Selengkapnya...."
+}

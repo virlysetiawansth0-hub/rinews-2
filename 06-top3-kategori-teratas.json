@@ -1,0 +1,12 @@
+{
+  "key": "top3_teratas",
+  "label": "06. 3 Kolom Teratas Bawah Slide (Internasional, Nasional, Regional)",
+  "widget": "RINEWS_Widget_Slide_Berita_Baru (top3)",
+  "wp_size": "rinews-top3",
+  "width": 526,
+  "height": 393,
+  "crop": true,
+  "object_fit": "cover",
+  "css_ratio_var": "--rn-ratio-top3",
+  "notes": "Tiga kotak berita teratas tepat di bawah slider hero."
+}

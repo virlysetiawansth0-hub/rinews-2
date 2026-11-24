@@ -1,0 +1,13 @@
+{
+  "key": "header_logo",
+  "label": "01. Header — Logo Tengah Portal",
+  "widget": "RINEWS_Widget_Header_Logo",
+  "wp_size": "rinews-header-logo",
+  "width": 380,
+  "height": 86,
+  "crop": false,
+  "object_fit": "contain",
+  "css_ratio_var": "--rn-ratio-header-logo",
+  "css_maxh_var": "--rn-logo-max-h",
+  "notes": "Tinggi maksimal logo header tengah dalam pixel (default 86px, lebar maks 380px)."
+}

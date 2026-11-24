@@ -1,0 +1,12 @@
+{
+  "key": "berita_viral",
+  "label": "03. Kolom Berita Viral (Pembaca Terbanyak)",
+  "widget": "RINEWS_Widget_Berita_Viral",
+  "wp_size": "rinews-berita-viral",
+  "width": 526,
+  "height": 393,
+  "crop": true,
+  "object_fit": "cover",
+  "css_ratio_var": "--rn-ratio-viral",
+  "notes": "Ukuran foto berita pada kolom Berita Viral di hero tengah."
+}

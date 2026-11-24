@@ -1,0 +1,13 @@
+{
+  "key": "iklan_leaderboard",
+  "label": "07. Iklan Panjang Horizontal (Leaderboard 1, 2 & Bawah)",
+  "widget": "RINEWS_Widget_Iklan_Gambar (leaderboard)",
+  "wp_size": "rinews-iklan-leaderboard",
+  "width": 1320,
+  "height": 160,
+  "crop": true,
+  "object_fit": "cover",
+  "css_ratio_var": "--rn-ratio-leaderboard",
+  "css_minh_var": "--rn-leaderboard-minh",
+  "notes": "Banner iklan panjang horizontal lebar penuh kontainer."
+}
